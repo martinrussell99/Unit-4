@@ -1,0 +1,14 @@
+1. Define the likelihood that an individual will contract a specific disease.
+This would be a supervised learning problem, you would need a lot of data to train a model for this.
+
+2.  Translate a set of images into variables for modeling
+You could probably use both for this problem, as long as the set of images was large enough to train the model with.
+
+3.  An ecommerce company wants to identify power users
+Since we aren't exactly sure what a power user is, I'm going to say unsupervised learning would be best, we don't exactly know what our outcome variable will be.
+
+4.  That same company wants to see shopping patterns in users
+Since there is no outcome variable, this would be an unsupervised learning model.
+
+5.  You want to reduce the number of variables inputting into your random forest model
+From what I've learned from the previous sections, I would use PCA to do this, and PCA can be applied to both supervised and unsupervised machine learing.
